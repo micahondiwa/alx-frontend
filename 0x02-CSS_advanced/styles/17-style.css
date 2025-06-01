@@ -86,6 +86,13 @@ a:active{
     padding-top: var(--section-header-padding);
 }
 
+.section-body {
+    padding-left: var(--section-body-padding);
+    padding-right: var(--section-body-padding);
+    padding-bottom: var(--section-body-padding);
+    padding-top: var(--section-body-padding);
+}
+
 .section-title {
     font-family: var(--font-family-title);
     font-size: var(--font-size-xx-large);
