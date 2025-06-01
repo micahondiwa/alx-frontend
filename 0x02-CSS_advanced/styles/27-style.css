@@ -271,3 +271,14 @@ ul.row {
     width: 90rem;
     height: auto;
 }
+
+.section-hero .section-title {
+    margin-bottom: 5rem;
+}
+
+.section-hero .section-inner {
+    padding-top: 10rem;
+    padding-right: 40rem;
+    padding-bottom: 2rem;
+    padding-left: 0;
+}
