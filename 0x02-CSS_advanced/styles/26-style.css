@@ -253,3 +253,15 @@ ul.row {
 .card-testimonal {
     text-align: center;
 }
+
+.card-testimonal card-avatar {
+    border-radius: 50%;
+    width: 10rem;
+    height: 10rem
+}
+
+.card-testimonal .card-quote cite {
+    display:block;
+    padding-top: 1rem;
+    color: var(--color-primary)
+}
