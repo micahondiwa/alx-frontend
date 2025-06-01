@@ -93,6 +93,13 @@ a:active{
     padding-top: var(--section-body-padding);
 }
 
+.section-footer {
+    padding-left: var(--section-footer-padding);
+    padding-right: var(--section-footer-padding);
+    padding-bottom: var(--section-footer-padding);
+    padding-top: var(--section-footer-padding);
+}
+
 .section-title {
     font-family: var(--font-family-title);
     font-size: var(--font-size-xx-large);
