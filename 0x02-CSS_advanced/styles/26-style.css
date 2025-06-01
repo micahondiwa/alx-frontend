@@ -249,3 +249,7 @@ ul.row {
     background-color: var(--color-primary);
     text-decoration: none;
 }
+
+.card-testimonal {
+    text-align: center;
+}
