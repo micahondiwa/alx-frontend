@@ -57,6 +57,7 @@ a {
     font-family: var(--font-family-title);
     text-transform: var(--section-tagline-transform);
     font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-xx-large);
 }
 
 h1, h2, h3, h4, h5, h6 {
