@@ -53,6 +53,7 @@ a {
 
 .section-title {
     font-family: var(--font-family-title);
+    font-size: var(--font-size-xx-large);
 }
 .section-tagline {
     color: var(--color-primary);
