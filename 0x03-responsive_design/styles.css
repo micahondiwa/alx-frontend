@@ -259,6 +259,13 @@ ul.row {
   align-items: center;
 }
 
+.header .menu-icon {
+  cursor: pointer;
+  padding: 2.5rem;
+  position: relative;
+  user-select: none;
+}
+
 /* Footer */
 .footer {
   --nav-item-font-weight: normal;
