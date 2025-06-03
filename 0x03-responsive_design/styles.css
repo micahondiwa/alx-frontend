@@ -603,3 +603,11 @@ ul.row {
   max-height: 100%;
   overflow: inherit;
 }
+
+.header .menu-icon .navicon:checked {
+  background: transparent;
+}
+
+.header .menu-icon .navicon:checked::before {
+  transform: rotate(-45deg);
+}
