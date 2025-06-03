@@ -133,6 +133,18 @@ a:active {
   background: var(--color-white);
 }
 
+@media (max-width: 480px) {
+  html {
+    font-size: 57%;
+  }
+}
+
+@media(min-width: 481px) and (max-width: 767px) {
+  html {
+    font-size: 60%
+  }
+}
+
 /* Helpers */
 .visually-hidden:not(:focus):not(:active) {
   position: absolute !important;
@@ -500,6 +512,18 @@ ul.row {
   opacity: 1;
 }
 
+@media (max-width: 767px) {
+  .card-work .card-inner {
+    text-color: var(--color-white);
+    position: relative;
+  }
+  .card-work .card-title {
+    opacity: 1;
+  }
+  .card-work .card-title a {
+    padding: 2rem 1rem 0 1rem;
+  }
+}
 /* Card Services */
 .card-services .card-title {
   margin: 0;
@@ -610,4 +634,44 @@ ul.row {
 
 .header .menu-icon .navicon:checked::before {
   transform: rotate(-45deg);
+}
+
+.header .menu-icon .navicon:checked::after {
+  transform: rotate(45deg);
+}
+
+.header .menu-icon .navicon:checked::before,
+.header .menu-icon .navicon:checked::before {
+  top: 0;
+}
+
+.header .menu-icon {
+  display: no;
+}
+@media(max-width: 767px) {
+  :root {
+    --heading-padding: 2rem 0 0;
+  }
+  .header {
+    background: var(--color-black);
+  }
+  .header-container {
+    flex-wrap: wrap;
+    padding: 0 1.5rem;
+  }
+  .header .menu-icon {
+    display: block;
+  }
+}
+
+@media(max-width: 480px) {
+  .header-logo {
+    flex-basis: 70%;
+  }
+}
+
+@media(min-width: 418px) and (max-width: 767px) {
+  .header-logo {
+    flex-basis: 79%;
+  }
 }
