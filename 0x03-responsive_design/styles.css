@@ -266,6 +266,14 @@ ul.row {
   user-select: none;
 }
 
+.header .menu-icon .navicon {
+  background: var(--color-white);
+  display: block;
+  width: 2rem;
+  height: .2rem;
+  position: relative;
+  transition: background .2s ease-out;
+}
 /* Footer */
 .footer {
   --nav-item-font-weight: normal;
